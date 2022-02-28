@@ -18,22 +18,25 @@
 
 .navbar-collapse {
     border-top: 0;
+    background-color: #bfbfbf;
 }
 
 .navbar-brand, .navbar-nav li a {
     padding-top: 0;
+    background-color: #bfbfbf;
+
 }
 
 .navbar-brand h1 {
     color: black;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 .navbar-brand a:hover {
     text-decoration: none;
 }
 
-#nav-list {
+#nav-list li a{
     background-color: white;
 }
 
@@ -43,16 +46,12 @@
     color: #282828;
     font-size: 1.2em;
     border: 1px solid black;
-
 }
 
 #nav-list a:hover {
     color: #202020;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #bfbfbf;
-}
 /** END HEADER */
 
 /** HOME PAGE **/
@@ -62,7 +61,7 @@
 }
 
 #main-content h2 {
-    font-size: 2.9em;
+    font-size: 1.7em;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 50px;
