@@ -27,7 +27,7 @@
 
 }
 
-.navbar-brand h1 {
+.navbar-brand a h1 {
     color: black;
     font-size: 1.4em;
 }
