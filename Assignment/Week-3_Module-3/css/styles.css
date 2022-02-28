@@ -1,0 +1,82 @@
+.navbar-header{
+    background-color: #bfbfbf;
+}
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    border-color: black;
+}
+
+#header-nav button {
+    margin-top: 22px;
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #bfbfbf;
+}
+
+.navbar-collapse {
+    border-top: 0;
+    background-color: #bfbfbf;
+}
+
+.navbar-brand, .navbar-nav li a {
+    padding-top: 0;
+    background-color: #bfbfbf;
+
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-size: 1.4em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+#nav-list li a{
+    background-color: white;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+    border: 1px solid black;
+}
+
+#nav-list a:hover {
+    color: #202020;
+}
+
+/** END HEADER */
+
+/** HOME PAGE **/
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #bfbfbf;
+    margin-bottom: 60px;
+}
+/** END HOME PAGE **/
